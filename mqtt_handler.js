@@ -3,9 +3,9 @@ const mqtt = require('mqtt');
 class MqttHandler {
   constructor() {
     this.mqttClient = null;
-    this.host = 'YOUR_HOST';
-    this.username = 'YOUR_USER'; // mqtt credentials if these are needed to connect
-    this.password = 'YOUR_PASSWORD';
+    this.host = "https://www.armadillo-01.rmq.cloudamqp.com/"; // mqtt credentials if these are needed to connect
+    this.username = "imxfzhjx";
+    this.password = "xMI_vSGWErbYr7x01Z-Q25WEudY5DUdu";
   }
   
   connect() {
